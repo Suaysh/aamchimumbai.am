@@ -1,0 +1,367 @@
+<!-- --﷽-- -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>food-website suyash</title>
+    <link
+      rel="shortcut icon"
+      href="./images/title-logo.png"
+      type="image/x-icon"
+    />
+
+    <!-- ----linked font awesome cdn---- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ----linked style.css file---- -->
+    <link rel="stylesheet" href="./public/css/style.css" />
+
+    <!-- ----linked media.css file---- -->
+    <link rel="stylesheet" href="./public/css/media.css" />
+  </head>
+  <body>
+    <!-- ====markup header element==== -->
+    <header class="header">
+      <!-- ---header logo--- -->
+      <div class="header-logo">
+        <img src="./images/logo-img.png" alt="logo" />
+      </div>
+
+      <!-- ---navigation--- -->
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a class="active" href="#home">home</a>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#menu">menu</a>
+          </li>
+          <li>
+            <a href="#popular">popular</a>
+          </li>
+          <li>
+            <a href="#gallery">gallery</a>
+          </li>
+          <li>
+            <a href="#order">order</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ---menu bar--- -->
+      <div id="menu-bar" class="fas fa-bars"></div>
+    </header>
+
+    <!-- ====markup main element==== -->
+
+    <main>
+      <!-- ====markup home section==== -->
+      <section id="home" class="home">
+        <div class="home-desc">
+          <h1>Aamchi Mumbai Street Food places</h1>
+          <p>
+            The city is known for its distinctive street foods. Although street food is common all over India, 
+            street food in Mumbai is noted because people from all economic classes eat on the roadside almost round the clock and it is sometimes felt that the taste of street food is better than restaurants in the city.
+          </p>
+          <input type="button"  value="get started"
+          onclick="location.href='https://en.wikipedia.org/wiki/Street_food_of_Mumbai'"/>
+       </div>
+
+        <div class="home-image">
+          <img src="./images/vadapav.png" alt="Net Error" />
+        </div>
+      </section>
+
+      <!-- ====markup about section==== -->
+      <section id="about" class="about">
+        <div class="about-image">
+          <img src="./images/about-frame-img.png" alt="" />
+        </div>
+
+        <div class="about-desc">
+          <h2>a world about us</h2>
+          <p>
+            The cultural diversity of Mumbai can be seen in the culinary richness that the city offers in the form of street food with Muslim, Gujarati, South Indian, Parsi, and Maharashtrian influences. 
+            These flavors, colors, and textures create dishes that pop in your mouths without burdening your pockets. 
+          </p>
+          <p>
+            If you are a foodie, then you are lucky to be in Mumbai because you have a plethora of best places to eat street food in Mumbai.            .
+          </p>
+
+          <input type="button" value="learn more" 
+          onclick="location.href='https://www.theory9.in/blog/the-best-of-mumbai-street-food.html'"/>
+        </div>
+      </section>
+
+      <!-- ====markup about section==== -->
+      <section id="menu" class="menu">
+        <h2>famous delicious <span>food</span></h2>
+        <div class="catagory">
+          <input type="button" value="breakfast" />
+          <input type="button" class="active" value="lunch" />
+          <input type="button" value="dinner" />
+          <input type="button" value="desert" />
+        </div>
+
+        <div class="catagory-img">
+          <img id="c-img" src="./images/menu-lunch.jpg" alt="Net Error" />
+        </div>
+
+        <!-- ---info content 01--- -->
+        <div class="menu-content">
+          <div class="info">
+            <h3><span>01.</span>PavBhaji best for breakfast </h3>
+            <p>
+              Pav Bhaji is a hearty, delightful, satisfying meal of mashed vegetable gravy with fluffy soft buttery dinner rolls served with a side of crunchy piquant onions, tangy lemon and herby coriander.
+            </p>
+          </div>
+
+          <!-- ---info content 02--- -->
+          <div class="info">
+            <h3><span>02.</span>thali is good for lunch</h3>
+            <p>
+              They serve the usual RDBS (rotli dal bhaat shaak)—an abbreviation I usually use at home.
+            </p>
+          </div>
+
+          <!-- ---info content 03--- -->
+          <div class="info">
+            <h3><span>03.</span>chinese perfect for dinner</h3>
+            <p>
+              This one's a go-to for many when it comes to authentic Chinese cuisine. They are lauded for their quantity and quality of food, and a great selection of dim sums.
+            </p>
+          </div>
+
+          <!-- ---info content 04--- -->
+          <div class="info">
+            <h3><span>04.</span>sweet desert is import in life </h3>
+            <p>
+              Modak is an Indian sweet dumpling dish popular in many Indian states and cultures.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====markup popular section==== -->
+      <section id="popular" class="popular">
+        <h2>most <span>popular</span> foods</h2>
+
+        <div class="popular-content">
+          <!-- ---card 01--- -->
+          <div class="p-card">
+            <img src="./images/product-1.jpg" alt="Net Error" />
+            <h4>Handi Biryani</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">RS: 129.00</p>
+            <input type="button" value="add to cart" 
+            onclick="location.href='https://www.zomato.com/nashik/delivery?dishv2_id=39098'"/>
+          </div>
+
+          <!-- ---card 02--- -->
+          <div class="p-card">
+            <img src="./images/product-2.jpg" alt="Net Error" />
+            <h4>Matka Rabdi</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">RS: 40.00</p>
+            <input type="button" value="add to cart" 
+            onclick="location.href='https://www.zomato.com/nashik/delivery?dishv2_id=33699'"/>
+          </div>
+
+          <!-- ---card 03--- -->
+          <div class="p-card">
+            <img src="./images/product-3.jpg" alt="Net Error" />
+            <h4>kanda Poha</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">RS: 30.00</p>
+            <input type="button" value="add to cart" 
+            onclick="location.href='https://www.zomato.com/nashik/delivery?dishv2_id=60751'"/>
+          </div>
+
+          <!-- ---card 04--- -->
+          <div class="p-card">
+            <img src="./images/product-4.jpg" alt="Net Error" />
+            <h4>Pani Puri</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">RS: 20.00</p>
+            <input type="button" value="add to cart" 
+            onclick="location.href='https://www.zomato.com/nashik/delivery?dishv2_id=55417'"/>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====markup gallery section==== -->
+      <section id="gallery" class="gallery">
+        <h2>our food <span>gallery</span></h2>
+
+        <div class="gallery-content">
+          <!-- ---gallery card 01--- -->
+          <div class="g-card">
+            <img src="./images/img1.jpg" alt="Net Error" />
+            <h3>Samosa</h3>
+          </div>
+
+          <!-- ---gallery card 02--- -->
+          <div class="g-card">
+            <img src="./images/img2.jpg" alt="Net Error" />
+            <h3>Ice-Cream</h3>
+          </div>
+
+          <!-- ---gallery card 03--- -->
+          <div class="g-card">
+            <img src="./images/img3.jpg" alt="Net Error" />
+            <h3>Manchurian</h3>
+          </div>
+
+          <!-- ---gallery card 04--- -->
+          <div class="g-card">
+            <img src="./images/img4.jpg" alt="Net Error" />
+            <h3>Egg bhurji</h3>
+          </div>
+
+          <!-- ---gallery card 05--- -->
+          <div class="g-card">
+            <img src="./images/img5.jpg" alt="Net Error" />
+            <h3>Lassi </h3>
+          </div>
+
+          <!-- ---gallery card 06--- -->
+          <div class="g-card">
+            <img src="./images/img6.jpg" alt="Net Error" />
+            <h3>Dabeli</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====markup gallery section==== -->
+      <section id="order" class="order">
+        <h2>make an <span>order</span></h2>
+        <div class="order-content">
+          <form action="https://sheetdb.io/api/v1/ajz2h37k3l9pt" method="post" id="sheetdb-form" class="order-form" autocomplete="off">
+            <input type="text" placeholder="name" required name="data[name]" />
+            <input type="email" placeholder="email" required name="data[email]" />
+            <input type="password" placeholder="password" required name="data[password]"/>
+            <input type="number" placeholder="phone Number" required name="data[number]"/>
+            <textarea cols="30" rows="8" placeholder="address" name="data[address]"></textarea>
+
+            <button type="submit">Order now</button>
+          </form>
+          <img src="./images/form-img.jpg" alt="Net Error" />
+        </div>
+      </section>
+    </main>
+
+    <!-- ====markup footer element==== -->
+    <footer class="footer">
+      <div class="contact-info">
+        <h4>contact info</h4>
+        <p>
+          <i class="fas fa-location-dot"></i
+          ><span>i.u.d.p bhawani chowk.manmad.</span>
+        </p>
+        <p><i class="fas fa-envelope"></i> <span>sonawanesuysh261@gmail.com</span></p>
+        <p><i class="fas fa-phone"></i> <span>+91 9561155148</span></p>
+        <p><i class="fas fa-phone"></i> <span>+91-9766396480</span></p>
+      </div>
+
+      <div class="location">
+        <h4>food location</h4>
+        <ul>
+          <li><a href="https://goo.gl/maps/mxNrK8zTQVpi6r3X6">Khau galli </a></li>
+          <li><a href="https://goo.gl/maps/SwSbeBfprjnPxEYn7">Rajaram Snacks Centre</a></li>
+          <li><a href="https://goo.gl/maps/D2pPZ3nRG54GVG34A">Anand Stall</a></li>
+          <li><a href="https://goo.gl/maps/ULvpan3j7pCU3iGKA">Taj Hotel</a></li>
+        </ul>
+      </div>
+
+      <div class="quick-links">
+        <h4>quick links</h4>
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#menu">menu</a></li>
+          <li><a href="#popular">popular</a></li>
+          <li><a href="#gallery">gallery</a></li>
+          <li><a href="#order">order</a></li>
+        </ul>
+      </div>
+
+      <div class="follow-us">
+        <h4>follow us</h4>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/mumbaistreetfood/" target="blank">facebook</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/mumbaistreetfoodlovers/" target="blank">instagram</a>
+          </li>
+          <li><a href="https://twitter.com/bombaystfood?lang=en" target="blank">twitter</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/suyash-sonawane-a53416246/" target="blank">linkedin</a>
+          </li>
+          <li>
+            <a href="https://www.reddit.com/r/mumbai/comments/qdfvtb/best_place_in_mumbai_for_street_foods/" target="blank">raddit</a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>Copyright 2022 || &copy all right reserved to suyash sonawane.</p>
+      </div>
+    </footer>
+    <script>
+	  var form = document.getElementById('sheetdb-form');
+	        form.addEventListener("submit", e =>{
+            e.preventDefault();
+            fetch(form.action,{
+              method : "post",
+              body:new FormData(document.getElementById("sheetdb-form")),
+            }).then(
+                response => respose.json()
+            ).then((html) =>{
+             
+          window.open('index1.html','_blank');
+                    });
+        
+          });
+
+    </script>
+
+    <!-- ----linked main.js file---- -->
+    <script src="./public/js/main.js"></script>
+  </body>
+</html>
